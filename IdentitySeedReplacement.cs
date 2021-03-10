@@ -22,6 +22,6 @@ return tableId * multiplier + recordId;
 
 // To reverse the unique record Id into it's two components you would use the following formula
 
-// decimal UniqueRecordId = record.GetValue<int>("UniqueRecordIdField");  // value from the field for this example is 10013000000005
+// decimal UniqueRecordId = record.GetValue<int>("IdUnique");  // value from the field for this example is 10013000000005
 // decimal recordId = UniqueRecordIdField % 1000000000 // result is 5
 // decimal tableId = (UniqueRecordId - recordId) / 1000000000 // result is 10013
