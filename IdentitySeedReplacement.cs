@@ -1,7 +1,7 @@
 // While record Ids are unique in a table they are not unique in the platform. To create a platform level unique record Id it is necessary to create a numeric field in a table and populate it with a formula.
 
 // Instructions
-// 1. Create a numeric field in the table with the following settings:
+//  Create a numeric field in the table with the following settings:
 //    System Name: IdUnique
 //    Precision: 15
 //    Scale: 0
