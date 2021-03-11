@@ -5,7 +5,7 @@ All formula examples should be created in the repository must end with a .cs fil
 
 ```csharp
 // Recalculation Interval: [One Time | Recurring]
-// Dependancies: [List any fields or formulas that are dependant on this field or that this field is dependant on]
+// Dependancies: [List any fields or formulas that are dependant on this field or that this field is dependant on. If the dependancy is to another formula in this repository include the URL to the formula.]
 
 // Purpose: [Why is this formula needed? What problem is being solved?]
 
