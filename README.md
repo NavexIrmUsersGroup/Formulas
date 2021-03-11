@@ -11,7 +11,7 @@ All formula examples should be created in the repository must end with a .cs fil
 
 // Formula Field Configuration:
 //   Type: [Text | Numeric | Date | Yes-No]
-//   Alias: [Any | Name to use if this is a dependancy on another formula example.]
+//   Alias: [Any | Name to use if this is a dependancy on another formula example or is a self-referencing formula.]
 //   [Field attribue]: [Field Attribute Value]
 
 // Known Issues / Hard-Coded Values:
