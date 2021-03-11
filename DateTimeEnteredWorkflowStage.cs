@@ -1,5 +1,5 @@
 // Recalculation Interval: Recurring, 6 hours
-// Dependancies: StageIdAndTimeStamp.cs
+// Dependancies: StageIdAndTimeStamp.cs, https://github.com/LockpathUsers/LockpathFormulas/blob/master/StageIdAndTimeStamp.cs
 
 // Purpose: There is no system field that captures when a record enters a workflow stage. The Updated field will show when a record enters a stage this value will only be accurate if the record is not edited while remaining in the same workflow stage since editing the record will change the value in the Updated field.
 
