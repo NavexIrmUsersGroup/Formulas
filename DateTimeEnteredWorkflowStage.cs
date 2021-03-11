@@ -8,11 +8,9 @@
 //   Alias: DateTimeEnteredStage
 //   Include Time: Yes
 
-// Known Issues / Hard-Coded Values:
-// As this formula has a dependancy that is also a formula the best approach is to set a specific Initial Recalculation date and time that is at least 10 minutes later than the the Initial Recalculation set on the field that this formula is dependant.
+// Known Issues / Hard-Coded Values: As this formula has a dependancy that is also a formula the best approach is to set a specific Initial Recalculation date and time that is at least 10 minutes later than the the Initial Recalculation set on the field that this formula is dependant.
 
-// Formula Description:
-// This is a self referencing field that only updates itself if the workflow stage Id changes.
+// Formula Description: This is a self referencing field that only updates itself if the workflow stage Id changes.
 
 DateTime? dateExistingValue = record.GetValue<DateTime?>("_DateTimeEnteredStage");
 String strWorkflowDateTimeStamp = record.GetValue<String>("_StageIdAndTimeStamp");
@@ -29,6 +27,4 @@ if (!string.IsNullOrEmpty(strExistingValue)) { // if the field is not empty get 
     return String.Format("{0}-{1}", strWorkflowStageId, strCurrenDate);
 }
 
-// Notes:
-// None.
-
+// Notes: None.
