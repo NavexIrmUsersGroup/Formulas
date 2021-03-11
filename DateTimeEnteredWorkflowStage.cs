@@ -10,7 +10,7 @@
 
 // Known Issues / Hard-Coded Values: As this formula has a dependancy that is also a formula the best approach is to set a specific Initial Recalculation date and time that is at least 10 minutes later than the the Initial Recalculation set on the field that this formula is dependant.
 
-// Formula Description: This is a self referencing field that only updates itself if the workflow stage Id changes.
+// Formula Description: This is a self referencing field that only updates itself if the value in the _StageIdAndTimeStamp field changes.
 
 DateTime? dateExistingValue = record.GetValue<DateTime?>("_DateTimeEnteredStage");
 String strWorkflowDateTimeStamp = record.GetValue<String>("_StageIdAndTimeStamp");
