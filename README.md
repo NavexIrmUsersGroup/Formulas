@@ -14,15 +14,12 @@ All formula examples should be created in the repository must end with a .cs fil
 //   Alias: [Any | Name to use if this is a dependancy on another formula example or is a self-referencing formula.]
 //   [Field attribue]: [Field Attribute Value]
 
-// Known Issues / Hard-Coded Values:
-// [List any known issues or explainations for any hard-coded values.]
+// Known Issues / Hard-Coded Values: [List any known issues or explainations for any hard-coded values.]
 
-// Formula Description:
-// [Describe how the formula works.]
+// Formula Description: [Describe how the formula works.]
 
 String example = "[formula code. Use comments only where necessary to describe formula functions or logic that his not obvious]";
 return example;
 
-// Notes:
-// [Notes about any alternate uses, possible variations when using the formula or other information best explained after reviewing the formula code.]
+// Notes: [Notes about any alternate uses, possible variations when using the formula or other information best explained after reviewing the formula code.]
 ```
