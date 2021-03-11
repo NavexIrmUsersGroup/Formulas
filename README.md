@@ -10,8 +10,9 @@ All formula examples should be created in the repository must end with a .cs fil
 // Purpose: [Why is this formula needed? What problem is being solved?]
 
 // Formula Field Configuration:
-//  Type: [Text | Numeric | Date | Yes-No]
-//    [Field attribue]: [Field Attribute Value]
+//   Type: [Text | Numeric | Date | Yes-No]
+//   Alias: [Any | Name to use if this is a dependancy on another formula example.]
+//   [Field attribue]: [Field Attribute Value]
 
 // Known Issues / Hard-Coded Values:
 // [List any known issues or explainations for any hard-coded values.]
