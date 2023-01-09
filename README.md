@@ -1,6 +1,6 @@
-# Lockpath Formulas
+# Formulas
 
-A Collection of C# formulas for the Lockpath platform.
+A Collection of C# formulas for the NAVEX IRM platform.
 
 ## Formula Dependencies
 
