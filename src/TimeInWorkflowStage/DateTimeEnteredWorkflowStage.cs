@@ -1,5 +1,5 @@
 // Recalculation Interval: Recurring, 6 hours
-// Dependancies:
+// Dependencies:
 //   _StageIdAndTimeStamp, https://github.com/LockpathUsers/LockpathFormulas/blob/master/StageIdAndTimeStamp.cs
 //   _DaysInStage https://github.com/LockpathUsers/LockpathFormulas/blob/master/DaysInStage.cs
 

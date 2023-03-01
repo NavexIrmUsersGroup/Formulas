@@ -1,5 +1,5 @@
 // Recalculation Interval: Recurring, 6 hours
-// Dependancies: _DateTimeEnteredStage, https://github.com/LockpathUsers/LockpathFormulas/blob/master/DateTimeEnteredWorkflowStage.cs
+// Dependencies: _DateTimeEnteredStage, https://github.com/LockpathUsers/LockpathFormulas/blob/master/DateTimeEnteredWorkflowStage.cs
 
 // Purpose: There is no system field that captures when a record enters a workflow stage. The Updated field will show when a record enters a stage this value will only be accurate if the record is not edited while remaining in the same workflow stage since editing the record will change the value in the Updated field.
 
@@ -15,7 +15,7 @@
 
 String strExistingValue = record.GetValue<String>("_StageIdAndTimeStamp");
 String strWorkflowStageId = record.GetValue<int?>("WorkflowStage.Id").ToString();
-String strCurrenDate = DateTime.Now.AddHours(-8).ToString(); // get the current date and time and offset for pacific timezone 
+String strCurrenDate = DateTime.Now.AddHours(-8).ToString(); // get the current date and time and offset for pacific timezone
 
 if (!string.IsNullOrEmpty(strExistingValue)) { // if the field is not empty get the workflow stage id from the _StageIdAndTimeStamp field value
     int endPosition = strExistingValue.IndexOf("-"); // get the poistion of the first delimiter

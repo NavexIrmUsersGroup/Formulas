@@ -1,5 +1,5 @@
 // Recalculation Interval: 24 hours
-// Dependancies: _DateTimeEnteredStage, https://github.com/LockpathUsers/LockpathFormulas/blob/master/DateTimeEnteredWorkflowStage.cs
+// Dependencies: _DateTimeEnteredStage, https://github.com/LockpathUsers/LockpathFormulas/blob/master/DateTimeEnteredWorkflowStage.cs
 
 // Purpose: Calculates the number of days a record has been in the same workflow stage.
 

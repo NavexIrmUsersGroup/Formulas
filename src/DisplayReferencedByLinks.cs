@@ -1,5 +1,5 @@
 // Recalculation Interval: Recurring, 6 hours
-// Dependancies: None
+// Dependencies: None
 
 // Purpose: Display Referenced By links in the form layout without using the builtin control.
 // It can be helpful to configure a Referenced By link to show on the table instead of in the "Linkages" Subpage
@@ -39,7 +39,7 @@ String linkFirst = style + "<a href=\"/Rm/Portal.aspx?tableId=" + tableId + "&id
 String linkLast = style + "<a href=\"/Rm/Portal.aspx?tableId=" + tableId + "&id=" + recordLastId + "\">" + recordLastName + "</a>";
 
 // check to see if the First and Last Id are the same, if so we only have one record and return that link, else return both links. one per line.
-if (recordFirstId == recordLastId)  
+if (recordFirstId == recordLastId)
     return linkFirst;
 else
     return String.Format("{0}<br>{1}", linkFirst, linkFirst);

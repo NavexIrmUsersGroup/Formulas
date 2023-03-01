@@ -1,6 +1,9 @@
 // Recalculation Interval: One Time
+// Dependencies: None
 
-// Purpose: Identiy Seeds can be used to create unique record Ids.  The problem with using idenity seeds is that they base seed is reset if the formula is changed thereby changing the "unique id".
+// Purpose: Identity Seeds can be used to create unique record Ids.  The problem with using
+// identity seeds is that they base seed is reset if the formula is changed thereby changing
+// the "unique id".
 // This formula can be used to create a platform level unique record Id that never changes.
 
 // Formula Field Configuration:

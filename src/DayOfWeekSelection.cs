@@ -1,5 +1,9 @@
 ﻿// Recalculation Interval: Recurring, 6 hours
-// Dependancies: Two System Lookup Tables
+// Dependencies: Two System Lookup Tables outlined below.
+
+// Purpose: The _NextDate field is a dynamically calculated field based off an initial date, a
+// frequency along with the ability for end users to pick specific day of the week from a lookup
+// lookup field in the record that is then used for notifications or auto transitions.
 
 // Create a standard system lookup table.
 // Populate the table with the data listed in Table 1 below.
